@@ -13,9 +13,9 @@ function Navbar() {
 
   return (
     <>
-      <div className="bg-transparent w-full flex h-12 lg:h-16 fixed z-[100]">
+      <div className="bg-night w-full flex h-12 lg:h-16 fixed z-[100]">
         <div className="w-full flex justify-start items-center gap-2 lg:pl-20 xl:pl-32 2xl:pl-64 pl-7">
-          <img className="h-4 md:h-6 lg:h-7 xl:h-8" src={logo} alt="Logo" />
+          <img className="h-4 md:h-5 lg:h-6 xl:h-7" src={logo} alt="Logo" />
           <p className="font-extrabold text-emerald text-lg lg:text-2xl xl:text-3xl"> mia. </p>
         </div>
         <div className="w-full justify-end gap-2 xl:gap-5 pl-7 lg:pr-20 xl:pr-32 2xl:pr-64 items-center hidden lg:flex">

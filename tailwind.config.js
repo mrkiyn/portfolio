@@ -11,6 +11,11 @@ module.exports = {
         emerald: '#50C878',
         onyx: '#1a1a1a'
       },
+      spacing: {
+        'mia1': '31rem',
+        '128': '32rem',
+        '256': '45rem',
+      },
     },
   },
   plugins: [],
