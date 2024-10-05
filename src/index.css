@@ -10,6 +10,52 @@ code {
     monospace;
 }
 
+.main-bg {
+  background-image: url('./assets/main_bg.png');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav-bg {
+  background-color: rgba(249, 249, 249, 0.8);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  transition: background-color 0.5s ease;
+}
+
+.navbar {
+  transition: background-color 0.5s ease; /* Ensure smooth transition for initial state as well */
+}
+
+.filter-castleton{
+  filter: hue-rotate(152deg);
+}
+
+
+.fade-in, .fade-in1, .fade-in2 {
+  opacity: 0;
+  transition: opacity 3s ease;
+}
+
+.fade-in1 {
+  transition-duration: 4s;
+}
+
+.fade-in2 {
+  transition-duration: 5s;
+}
+
+.is-visible {
+  opacity: 1;
+}
+
+
+.about-bg {
+  background: rgb(0,86,63);
+  background: linear-gradient(180deg, rgba(0, 86, 63, 1) 30%, rgba(0, 86, 63, 0.9) 40%, rgba(0, 86, 63, 0.8) 50%, rgba(0, 86, 63, 0.6) 60%, rgba(0, 86, 63, 0.4) 70%, rgba(0, 86, 63, 0.2) 85%, rgba(248, 248, 248, 0) 100%);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -6,6 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        mainbg: '#F8F8F8',
         night: '#161518ff',
         castleton: '#00563F',
         emerald: '#50C878',
