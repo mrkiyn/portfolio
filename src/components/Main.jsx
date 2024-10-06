@@ -10,9 +10,9 @@ function Main({ mainRef }) {
                     <div className='w-full h-full flex flex-col justify-center md:items-start pt-4 md:pt-0'>
                     <p className='text-3xl md:text-4xl xl:text-7xl font-black bg-gradient-to-r from-castleton to-emerald text-transparent bg-clip-text'>Mark Ian Amado</p>
                         <p className='text-2xl md:text-3xl font-bold text-emerald'>Full Stack Software Engineer</p>
-                        <div className='py-1 md:py-4'>
+                        {/* <div className='py-1 md:py-4'>
                             <button className='bg-castleton font-semibold text-sm text-white rounded-lg px-3 py-2 lg:py-2 lg:px-5 lg:text-lg'>Hire Me!</button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
                 <div className='w-full h-full flex justify-center md:justify-end items-center lg:pr-20 xl:pr-32 2xl:pr-64 px-7'>

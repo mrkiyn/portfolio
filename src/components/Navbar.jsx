@@ -3,6 +3,7 @@ import { FaGithub, FaLinkedin, FaHome, FaFileDownload, FaRegQuestionCircle } fro
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { IoClose } from 'react-icons/io5';
 import logo from '../assets/logo.png';
+import cv from '../assets/CV.pdf'
 
 function Navbar({ scrollToMain, scrollToAbout, scrollToSkills }) {
   const [openSideBar, setOpenSideBar] = useState(false);
@@ -51,7 +52,7 @@ function Navbar({ scrollToMain, scrollToAbout, scrollToSkills }) {
           <button onClick={scrollToMain} className="px-2 2xl:px-5 py-3 text-sm text-castleton font-semibold hover:text-emerald"> Home </button>
           <button onClick={scrollToAbout} className="px-2 2xl:px-5 py-3 text-sm text-castleton font-semibold hover:text-emerald"> About </button>
           <button onClick={scrollToSkills} className="px-2 2xl:px-5 py-3 text-sm text-castleton font-semibold hover:text-emerald"> Skills </button>
-          <button className="bg-castleton rounded-xl px-7 py-2 font-bold text-white min-w-max"> Download CV </button>
+          <button className="bg-castleton rounded-xl px-7 py-2 font-bold text-white min-w-max" onClick={() => window.open(cv, '_blank')}> Download CV </button>
           <div className="border-r border-castleton border-2 h-2/4"></div>
           <a href="https://github.com/mrkiyn" target="_blank" rel="noreferrer"><FaGithub className="text-castleton text-2xl" /></a>
           <a href="https://www.linkedin.com/in/mark-ian-amado/" target="_blank" rel="noreferrer"><FaLinkedin className="text-castleton text-2xl" /></a>
